@@ -48,3 +48,6 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+![localhost_8081 - Brave 7_9_2024 11_20_48 AM](https://github.com/Maneesha-lab705/my-app/assets/124575388/437d1602-9636-4568-8324-07be03f8fb3d)
+
+- screenshots:
