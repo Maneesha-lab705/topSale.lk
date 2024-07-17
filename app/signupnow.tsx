@@ -1,6 +1,7 @@
 import React from 'react';
+import { StatusBar } from 'expo-status-bar';
 import { Colors } from "@/constants/Colors"
-import { View, Text, StyleSheet, Image, TextInput, Button, TouchableOpacity, StatusBar } from 'react-native';
+import { View, Text, StyleSheet, Image, TextInput, Button, TouchableOpacity } from 'react-native';
 import { router,Link } from 'expo-router';
 
  const signupnow = () => (
@@ -52,11 +53,12 @@ import { router,Link } from 'expo-router';
                 <Text style={styles.linkText1}>Do you have an account then,</Text>
             </TouchableOpacity>
             
-            <Link style={styles.link} href="/loginPage">Login Here</Link>
+            <Text  style ={styles.link}onPress={()=>router.back()}>Login Here</Text>
+            
 
         </View>
 
-        <StatusBar  />
+        <StatusBar style='auto'  />
     </View>
 );
 

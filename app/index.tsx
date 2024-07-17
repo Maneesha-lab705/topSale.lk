@@ -29,7 +29,7 @@ export default function loginPage() {
             />
         </View>
 
-        <Button onPress={() => router.navigate('Home')} title="Login Now" color="#841584"  />
+        <Button onPress={() => router.push('/home')} title="Login Now" color="#841584"  />
 
         {/* <TouchableOpacity style={styles.link} onPress={() => router.navigate('passwordReset')}>
             <Text style={styles.linkText}>Forgot Password?</Text>
